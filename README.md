@@ -8,3 +8,19 @@
 * [Zigbee](#Zigbee)
 * [Plataforma Tuya](#Plataforma-Tuya)
 
+
+
+
+
+
+
+
+
+# Sites relacionados ao Home Assistant - Tuya
+* https://
+* https://
+  
+# Status do Projeto
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
