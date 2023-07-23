@@ -57,6 +57,8 @@ Por meio dessa integração, você pode conectar os dispositivos Tuya ao Home As
 
 # Integração Tuya Home Assistant através da nuvem Tuya
 
+## Criar um projeto no sites de IOT da Tuya
+
 Acesse o site da Plataforma Tuya IoT: https://iot.tuya.com/.
 
 Faça login na sua conta da Plataforma Tuya IoT.
@@ -74,8 +76,7 @@ Data Center (Centro de Dados): Escolha o centro de dados apropriado para a sua l
 Development Method (Método de Desenvolvimento): Selecione "Smart Home" (Casa Inteligente) na lista suspensa como o seu método de desenvolvimento.
 Uma vez que você tenha preenchido as informações necessárias, clique no botão "Create" (Criar) para criar o seu projeto na nuvem.
 
-
-# Passos gerais para vincular dispositivos usando a conta do aplicativo Tuya
+## Passos gerais para vincular dispositivos usando a conta do aplicativo Tuya
 
 Abra o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel.
 
@@ -95,15 +96,13 @@ Siga as instruções no aplicativo Tuya Smart ou Smart Life para confirmar o pro
 
 Após confirmar, volte para a Plataforma Tuya IoT e navegue até a guia "All Devices" (Todos os Dispositivos) para verificar se os dispositivos foram importados com sucesso.
 
-
-# Passos para obter a Chave de Autorização (Authorization Key) para o seu projeto na Plataforma Tuya IoT
+## Passos para obter a Chave de Autorização (Authorization Key) para o seu projeto na Plataforma Tuya IoT
 
 Faça login na Plataforma Tuya IoT (https://iot.tuya.com/).
 
 No painel da Plataforma Tuya IoT, localize e clique no projeto que você criou anteriormente para acessar a página de Visão Geral do Projeto (Project Overview).
 
 Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.
-
 
 # Configuração
 
