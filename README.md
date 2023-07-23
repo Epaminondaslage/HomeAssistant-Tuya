@@ -157,15 +157,32 @@ Passos de configuração manual
    <li>Senha (Password): Informe a senha da sua conta do aplicativo, não a senha da conta da plataforma Tuya IoT.</li>
 </ul>
 
-Segundo os passos todos os dispositivos cadastrados na nuvem da Tuya irão aparecer na Integração Tuya do Home Assistant.
+Na página de Integrações, clique no ícone de "+" no canto inferior direito para adicionar uma nova integração.
 
+1. Na lista de integrações disponíveis, procure por "Tuya" e clique nele.
+
+2. Na tela de configuração do Tuya, você será solicitado a fazer login na sua conta Tuya. Insira seu nome de usuário e senha e clique em "Entrar".
+
+3. Após fazer login, o Home Assistant iniciará o processo de descoberta de dispositivos Tuya em sua conta. Aguarde alguns momentos enquanto o Home Assistant busca e adiciona seus dispositivos.
+
+4. Na próxima tela, você poderá revisar os dispositivos encontrados e selecionar quais deseja adicionar ao Home Assistant. Marque as caixas ao lado dos dispositivos que deseja integrar e clique em "Concluir" para continuar.
+   
 <table border="0"><body><tr>
 <td style="width: 50%;"><img src="/img/fig07.png" width="50%" /></td></tr><tr>
 <td style="text-align: center;">Menu Integração Tuya.</td></tr></body></table>
 
+5. Na tela de confirmação, você poderá personalizar as configurações para cada dispositivo selecionado. Isso inclui renomear as entidades, adicionar as entidades a áreas específicas e definir grupos. Faça as alterações desejadas e clique em "Concluir".
+
+6. Após concluir o processo, o Home Assistant exibirá uma mensagem informando que a integração Tuya foi bem-sucedida.
+
+7. Agora você poderá acessar os dispositivos Tuya integrados na interface do Home Assistant. Eles serão representados como entidades individuais, permitindo que você controle, monitore e crie automações com base em seus estados.
+
 <table border="0"><body><tr>
 <td style="width: 50%;"><img src="/img/fig06.png" width="50%" /></td></tr><tr>
 <td style="text-align: center;">Abra a aba "Dispositivos".</td></tr></body></table>
+
+Lembre-se de que a integração Tuya no Home Assistant por meio da Tuya Cloud requer uma conexão estável com a internet e depende dos servidores da Tuya para funcionar.
+
 
 # Sites relacionados ao Home Assistant - Tuya
 
