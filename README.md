@@ -140,8 +140,8 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 
 # Sites relacionados ao Home Assistant - Tuya
 https://www.home-assistant.io/integrations/tuya/
-* https://
-  
+https://github.com/tuya/tuya-home-assistant
+https://github.com/tuya/tuya-home-assistant/blob/main/docs/regions_dataCenters.md
 # Status do Projeto
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
