@@ -104,6 +104,33 @@ No painel da Plataforma Tuya IoT, localize e clique no projeto que você criou a
 
 Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.
 
+
+# Configuração
+
+Adicionar a integração Tuya à sua instância do Home Assistant pode ser feito através da interface do usuário, usando este botão "Meu":
+
+[Tuya - Meu Botão]
+
+O Home Assistant pode descobrir automaticamente a integração Tuya. Se uma instância for encontrada, ela será mostrada como "Descoberta". Você pode configurá-la imediatamente.
+
+Passos de configuração manual
+
+País
+Escolha o país que você selecionou ao se registrar.
+
+ID de Acesso à Tuya IoT (Tuya IoT Access ID)
+Acesse o seu projeto na Plataforma Tuya IoT. Encontre o ID de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
+
+Segredo de Acesso à Tuya IoT (Tuya IoT Access Secret)
+Acesse o seu projeto na Plataforma Tuya IoT. Encontre o Segredo de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
+
+Conta (Account)
+Utilize a conta do aplicativo Tuya Smart ou Smart Life, não a conta da plataforma Tuya IoT.
+
+Senha (Password)
+Informe a senha da sua conta do aplicativo, não a senha da conta da plataforma Tuya IoT.
+
+
 # Sites relacionados ao Home Assistant - Tuya
 https://www.home-assistant.io/integrations/tuya/
 * https://
