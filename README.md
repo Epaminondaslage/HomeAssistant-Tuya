@@ -58,6 +58,7 @@ Por meio dessa integração, você pode conectar os dispositivos Tuya ao Home As
 # Integração Tuya Home Assistant através da nuvem Tuya
 
 ## Criar um projeto no sites de IOT da Tuya
+
 <ul>
 <li>Acesse o site da Plataforma Tuya IoT: https://iot.tuya.com/.</li>
 
@@ -78,6 +79,7 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 </ul>
 
 ## Passos gerais para vincular dispositivos usando a conta do aplicativo Tuya
+
 <ul>
 <li>Abra o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel.</li>
 
@@ -97,7 +99,9 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 
 <li>Após confirmar, volte para a Plataforma Tuya IoT e navegue até a guia "All Devices" (Todos os Dispositivos) para verificar se os dispositivos foram importados com sucesso.</li>
 </ul>
+
 ## Passos para obter a Chave de Autorização (Authorization Key) para o seu projeto na Plataforma Tuya IoT
+
 <ul>
 <li>Faça login na Plataforma Tuya IoT (https://iot.tuya.com/).</li>
 
@@ -105,7 +109,9 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 
 <li>Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.</li>
 <ul>
+
 ## Configuração
+
 <ul>
 <li>Adicionar a integração Tuya à sua instância do Home Assistant pode ser feito através da interface do usuário, usando este botão "Meu":</li>
 
@@ -115,20 +121,20 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 
 <li>Passos de configuração manual</li>
 
-País
-Escolha o país que você selecionou ao se registrar.
+  País
+  Escolha o país que você selecionou ao se registrar.
 
-ID de Acesso à Tuya IoT (Tuya IoT Access ID)
-Acesse o seu projeto na Plataforma Tuya IoT. Encontre o ID de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
+  ID de Acesso à Tuya IoT (Tuya IoT Access ID)
+  Acesse o seu projeto na Plataforma Tuya IoT. Encontre o ID de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
 
-Segredo de Acesso à Tuya IoT (Tuya IoT Access Secret)
-Acesse o seu projeto na Plataforma Tuya IoT. Encontre o Segredo de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
+  Segredo de Acesso à Tuya IoT (Tuya IoT Access Secret)
+  Acesse o seu projeto na Plataforma Tuya IoT. Encontre o Segredo de Acesso abaixo da Chave de Autorização na guia Visão Geral do Projeto.
 
-Conta (Account)
-Utilize a conta do aplicativo Tuya Smart ou Smart Life, não a conta da plataforma Tuya IoT.
+  Conta (Account)
+  Utilize a conta do aplicativo Tuya Smart ou Smart Life, não a conta da plataforma Tuya IoT.
 
-Senha (Password)
-Informe a senha da sua conta do aplicativo, não a senha da conta da plataforma Tuya IoT.
+  Senha (Password)
+  Informe a senha da sua conta do aplicativo, não a senha da conta da plataforma Tuya IoT.
 
 </ul>
 
