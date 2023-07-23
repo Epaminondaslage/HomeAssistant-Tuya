@@ -58,16 +58,16 @@ Por meio dessa integração, você pode conectar os dispositivos Tuya ao Home As
 # Integração Tuya Home Assistant através da nuvem Tuya
 
 ## Criar um projeto no sites de IOT da Tuya
+<ul>
+<li>Acesse o site da Plataforma Tuya IoT: https://iot.tuya.com/.</li>
 
-Acesse o site da Plataforma Tuya IoT: https://iot.tuya.com/.
+<li>Faça login na sua conta da Plataforma Tuya IoT.</li>
 
-Faça login na sua conta da Plataforma Tuya IoT.
+<li>No menu de navegação à esquerda, clique em "Cloud" e selecione "Development" (Desenvolvimento).</li>
 
-No menu de navegação à esquerda, clique em "Cloud" e selecione "Development" (Desenvolvimento).
+<li>Na página de Desenvolvimento, clique em "Create Cloud Project" (Criar Projeto na Nuvem).</li>
 
-Na página de Desenvolvimento, clique em "Create Cloud Project" (Criar Projeto na Nuvem).
-
-Na caixa de diálogo "Create Cloud Project" (Criar Projeto na Nuvem), configure os seguintes detalhes:
+<li>Na caixa de diálogo "Create Cloud Project" (Criar Projeto na Nuvem), configure os seguintes detalhes:</li>
 
 Project Name (Nome do Projeto): Insira um nome para o seu projeto.
 Description (Descrição): Forneça uma breve descrição do seu projeto.
@@ -75,44 +75,45 @@ Industry (Indústria): Selecione a indústria relevante à qual o seu projeto pe
 Data Center (Centro de Dados): Escolha o centro de dados apropriado para a sua localização na lista suspensa. Consulte a lista de mapeamento país/centro de dados fornecida pela Tuya para fazer a escolha correta para o seu país.
 Development Method (Método de Desenvolvimento): Selecione "Smart Home" (Casa Inteligente) na lista suspensa como o seu método de desenvolvimento.
 Uma vez que você tenha preenchido as informações necessárias, clique no botão "Create" (Criar) para criar o seu projeto na nuvem.
+</ul>
 
 ## Passos gerais para vincular dispositivos usando a conta do aplicativo Tuya
+<ul>
+<li>Abra o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel.</li>
 
-Abra o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel.
+<li>No aplicativo, acesse a seção "Me" (Eu) ou "Profile" (Perfil), onde você encontrará opções relacionadas à sua conta.</li>
 
-No aplicativo, acesse a seção "Me" (Eu) ou "Profile" (Perfil), onde você encontrará opções relacionadas à sua conta.
+<li>Procure por uma opção como "Link Account" (Vincular Conta) ou "Add App Account" (Adicionar Conta do Aplicativo). Essa opção permitirá vincular dispositivos à sua conta a partir de outro aplicativo.</li>
 
-Procure por uma opção como "Link Account" (Vincular Conta) ou "Add App Account" (Adicionar Conta do Aplicativo). Essa opção permitirá vincular dispositivos à sua conta a partir de outro aplicativo.
+<li>Na seção "Add App Account" (Adicionar Conta do Aplicativo), talvez seja exibido um código QR na tela.</li>
 
-Na seção "Add App Account" (Adicionar Conta do Aplicativo), talvez seja exibido um código QR na tela.
+<li>No Tuya IoT Platform (Plataforma Tuya IoT), vá para a guia "Devices" (Dispositivos).</li>
 
-No Tuya IoT Platform (Plataforma Tuya IoT), vá para a guia "Devices" (Dispositivos).
+<li>Clique em "Link Tuya App Account" (Vincular Conta do Aplicativo Tuya) e selecione "Add App Account" (Adicionar Conta do Aplicativo).</li>
 
-Clique em "Link Tuya App Account" (Vincular Conta do Aplicativo Tuya) e selecione "Add App Account" (Adicionar Conta do Aplicativo).
+<li>Usando o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel, escaneie o código QR exibido na Plataforma Tuya IoT.</li>
 
-Usando o aplicativo Tuya Smart ou Smart Life em seu dispositivo móvel, escaneie o código QR exibido na Plataforma Tuya IoT.
+<li>Siga as instruções no aplicativo Tuya Smart ou Smart Life para confirmar o processo de vinculação.</li>
 
-Siga as instruções no aplicativo Tuya Smart ou Smart Life para confirmar o processo de vinculação.
-
-Após confirmar, volte para a Plataforma Tuya IoT e navegue até a guia "All Devices" (Todos os Dispositivos) para verificar se os dispositivos foram importados com sucesso.
-
+<li>Após confirmar, volte para a Plataforma Tuya IoT e navegue até a guia "All Devices" (Todos os Dispositivos) para verificar se os dispositivos foram importados com sucesso.</li>
+</ul>
 ## Passos para obter a Chave de Autorização (Authorization Key) para o seu projeto na Plataforma Tuya IoT
+<ul>
+<li>Faça login na Plataforma Tuya IoT (https://iot.tuya.com/).</li>
 
-Faça login na Plataforma Tuya IoT (https://iot.tuya.com/).
+<li>No painel da Plataforma Tuya IoT, localize e clique no projeto que você criou anteriormente para acessar a página de Visão Geral do Projeto (Project Overview).</li>
 
-No painel da Plataforma Tuya IoT, localize e clique no projeto que você criou anteriormente para acessar a página de Visão Geral do Projeto (Project Overview).
-
-Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.
-
+<li>Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.</li>
+<ul>
 ## Configuração
-
-Adicionar a integração Tuya à sua instância do Home Assistant pode ser feito através da interface do usuário, usando este botão "Meu":
+<ul>
+<li>Adicionar a integração Tuya à sua instância do Home Assistant pode ser feito através da interface do usuário, usando este botão "Meu":</li>
 
 [Tuya - Meu Botão]
 
-O Home Assistant pode descobrir automaticamente a integração Tuya. Se uma instância for encontrada, ela será mostrada como "Descoberta". Você pode configurá-la imediatamente.
+<li>O Home Assistant pode descobrir automaticamente a integração Tuya. Se uma instância for encontrada, ela será mostrada como "Descoberta". Você pode configurá-la imediatamente.</li>
 
-Passos de configuração manual
+<li>Passos de configuração manual</li>
 
 País
 Escolha o país que você selecionou ao se registrar.
@@ -129,6 +130,7 @@ Utilize a conta do aplicativo Tuya Smart ou Smart Life, não a conta da platafor
 Senha (Password)
 Informe a senha da sua conta do aplicativo, não a senha da conta da plataforma Tuya IoT.
 
+</ul>
 
 # Sites relacionados ao Home Assistant - Tuya
 https://www.home-assistant.io/integrations/tuya/
