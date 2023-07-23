@@ -108,7 +108,7 @@ Uma vez que você tenha preenchido as informações necessárias, clique no bot�
 <li>No painel da Plataforma Tuya IoT, localize e clique no projeto que você criou anteriormente para acessar a página de Visão Geral do Projeto (Project Overview).</li>
 
 <li>Uma vez na página de Visão Geral do Projeto, você deve encontrar a Chave de Autorização associada ao seu projeto. Essa chave é geralmente utilizada para configurar integrações e permitir o acesso às APIs do seu projeto na Plataforma Tuya IoT. Copie a Chave de Autorização para um local seguro ou anote-a para uso futuro.</li>
-<ul>
+</ul>
 
 ## Configuração
 
