@@ -1,4 +1,4 @@
-<td style="width: 20%;"><img src="/img/top_ha_tuya.png" width="20%"></td>
+<td style="width: 20%;"><img src="/img/top_ha_tuya.png" width="100%"></td>
 
 # Índice 
 * [Introdução](#Introdução)
